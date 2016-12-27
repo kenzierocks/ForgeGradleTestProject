@@ -1,3 +1,4 @@
+$ GRADLE_OPTS=-Xmx3G ./gradlew setupDecompWorkspace --info --no-daemon
 Initialized native services in: /home/kenzie/.gradle/native
 Starting Build
 Settings evaluated using settings file '/master/settings.gradle'.
@@ -24,76 +25,76 @@ Selected primary task 'setupDecompWorkspace' from project :
 Tasks to be executed: [task ':deobfCompileDummyTask', task ':deobfProvidedDummyTask', task ':getVersionJson', task ':extractUserdev', task ':extractDependencyATs', task ':extractMcpData', task ':extractMcpMappings', task ':genSrgs', task ':downloadClient', task ':downloadServer', task ':splitServerJar', task ':mergeJars', task ':deobfMcSRG', task ':decompileMc', task ':fixMcSources', task ':applySourcePatches', task ':remapMcSources', task ':recompileMc', task ':extractNatives', task ':getAssetIndex', task ':getAssets', task ':makeStart', task ':setupDecompWorkspace']
 :deobfCompileDummyTask (Thread[main,5,main]) started.
 :deobfCompileDummyTask
-Putting task artifact state for task ':deobfCompileDummyTask' into context took 0.002 secs.
+Putting task artifact state for task ':deobfCompileDummyTask' into context took 0.001 secs.
 Executing task ':deobfCompileDummyTask' (up-to-date check took 0.0 secs) due to:
   Task has not declared any outputs.
-:deobfCompileDummyTask (Thread[main,5,main]) completed. Took 0.112 secs.
+:deobfCompileDummyTask (Thread[main,5,main]) completed. Took 0.01 secs.
 :deobfProvidedDummyTask (Thread[main,5,main]) started.
 :deobfProvidedDummyTask
 Putting task artifact state for task ':deobfProvidedDummyTask' into context took 0.0 secs.
 Executing task ':deobfProvidedDummyTask' (up-to-date check took 0.0 secs) due to:
   Task has not declared any outputs.
-:deobfProvidedDummyTask (Thread[main,5,main]) completed. Took 0.02 secs.
+:deobfProvidedDummyTask (Thread[main,5,main]) completed. Took 0.002 secs.
 :getVersionJson (Thread[main,5,main]) started.
 :getVersionJson
-Putting task artifact state for task ':getVersionJson' into context took 0.121 secs.
+Putting task artifact state for task ':getVersionJson' into context took 0.053 secs.
 Executing task ':getVersionJson' (up-to-date check took 0.0 secs) due to:
   Task.upToDateWhen is false.
 Task :getVersionJson class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :getVersionJson actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-:getVersionJson (Thread[main,5,main]) completed. Took 0.621 secs.
+:getVersionJson (Thread[main,5,main]) completed. Took 0.779 secs.
 :extractUserdev (Thread[main,5,main]) started.
 :extractUserdev
-Putting task artifact state for task ':extractUserdev' into context took 0.003 secs.
+Putting task artifact state for task ':extractUserdev' into context took 0.015 secs.
 Task :extractUserdev class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :extractUserdev actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':extractUserdev' (up-to-date check took 0.098 secs) due to:
+Executing task ':extractUserdev' (up-to-date check took 0.027 secs) due to:
   Output property 'destinationDir' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/userdev has changed.
   Output property 'destinationDir' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/userdev/patches.zip has been removed.
   Output property 'destinationDir' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/userdev/merged_at.cfg has been removed.
-:extractUserdev (Thread[main,5,main]) completed. Took 0.914 secs.
+:extractUserdev (Thread[main,5,main]) completed. Took 0.241 secs.
 :extractDependencyATs (Thread[main,5,main]) started.
 :extractDependencyATs
 Skipping task ':extractDependencyATs' as task onlyIf is false.
 :extractDependencyATs SKIPPED
-:extractDependencyATs (Thread[main,5,main]) completed. Took 0.007 secs.
+:extractDependencyATs (Thread[main,5,main]) completed. Took 0.001 secs.
 :extractMcpData (Thread[main,5,main]) started.
 :extractMcpData
 Failed to get resource: GET. [HTTP HTTP/1.1 403 Forbidden: https://libraries.minecraft.net/de/oceanlabs/mcp/mcp/1.11/mcp-1.11.pom]
 Skipping task ':extractMcpData' as task onlyIf is false.
 :extractMcpData SKIPPED
-:extractMcpData (Thread[main,5,main]) completed. Took 2.719 secs.
+:extractMcpData (Thread[main,5,main]) completed. Took 1.286 secs.
 :extractMcpMappings (Thread[main,5,main]) started.
 :extractMcpMappings
 Failed to get resource: GET. [HTTP HTTP/1.1 403 Forbidden: https://libraries.minecraft.net/de/oceanlabs/mcp/mcp_snapshot/20161225-1.11/mcp_snapshot-20161225-1.11.pom]
 Skipping task ':extractMcpMappings' as task onlyIf is false.
 :extractMcpMappings SKIPPED
-:extractMcpMappings (Thread[main,5,main]) completed. Took 2.44 secs.
+:extractMcpMappings (Thread[main,5,main]) completed. Took 2.814 secs.
 :genSrgs (Thread[main,5,main]) started.
 :genSrgs
 Skipping task ':genSrgs' as task onlyIf is false.
 :genSrgs SKIPPED
-:genSrgs (Thread[main,5,main]) completed. Took 1.214 secs.
+:genSrgs (Thread[main,5,main]) completed. Took 0.434 secs.
 :downloadClient (Thread[main,5,main]) started.
 :downloadClient
 Skipping task ':downloadClient' as task onlyIf is false.
 :downloadClient SKIPPED
-:downloadClient (Thread[main,5,main]) completed. Took 0.613 secs.
+:downloadClient (Thread[main,5,main]) completed. Took 0.248 secs.
 :downloadServer (Thread[main,5,main]) started.
 :downloadServer
 Skipping task ':downloadServer' as task onlyIf is false.
 :downloadServer SKIPPED
-:downloadServer (Thread[main,5,main]) completed. Took 0.645 secs.
+:downloadServer (Thread[main,5,main]) completed. Took 0.281 secs.
 :splitServerJar (Thread[main,5,main]) started.
 :splitServerJar
 Skipping task ':splitServerJar' as task onlyIf is false.
 :splitServerJar SKIPPED
-:splitServerJar (Thread[main,5,main]) completed. Took 3.291 secs.
+:splitServerJar (Thread[main,5,main]) completed. Took 1.355 secs.
 :mergeJars (Thread[main,5,main]) started.
 :mergeJars
 Skipping task ':mergeJars' as task onlyIf is false.
 :mergeJars SKIPPED
-:mergeJars (Thread[main,5,main]) completed. Took 1.446 secs.
+:mergeJars (Thread[main,5,main]) completed. Took 1.076 secs.
 :deobfMcSRG (Thread[main,5,main]) started.
 :deobfMcSRG
 No output file found.
@@ -9868,32 +9869,32 @@ Processed 1973 -> 2027
 Copying net/minecraftforge/fml/relauncher/SideOnly.class
 Copying net/minecraftforge/fml/relauncher/Side.class
 Processed /home/kenzie/Documents/GitHub/ForgeGradleTestProject/build/tmp/deobfMcSRG/deobfed.jar
-:deobfMcSRG (Thread[main,5,main]) completed. Took 18.079 secs.
+:deobfMcSRG (Thread[main,5,main]) completed. Took 20.455 secs.
 :decompileMc (Thread[main,5,main]) started.
 :decompileMc
 No output file found.
-Putting task artifact state for task ':decompileMc' into context took 0.001 secs.
+Putting task artifact state for task ':decompileMc' into context took 0.007 secs.
 Task :decompileMc class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :decompileMc actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
 Executing task ':decompileMc' (up-to-date check took 0.001 secs) due to:
   Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forge-1.11-13.19.1.2199-decomp.jar has changed.
-:decompileMc (Thread[main,5,main]) completed. Took 5 mins 0.61 secs.
+:decompileMc (Thread[main,5,main]) completed. Took 1 mins 44.489 secs.
 :fixMcSources (Thread[main,5,main]) started.
 :fixMcSources
 No output file found.
-Putting task artifact state for task ':fixMcSources' into context took 0.001 secs.
+Putting task artifact state for task ':fixMcSources' into context took 0.004 secs.
 Task :fixMcSources class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :fixMcSources actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':fixMcSources' (up-to-date check took 0.2 secs) due to:
+Executing task ':fixMcSources' (up-to-date check took 0.162 secs) due to:
   Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forge-1.11-13.19.1.2199-decompFixed.jar has changed.
-:fixMcSources (Thread[main,5,main]) completed. Took 41.047 secs.
+:fixMcSources (Thread[main,5,main]) completed. Took 14.258 secs.
 :applySourcePatches (Thread[main,5,main]) started.
 :applySourcePatches
 No output file found.
-Putting task artifact state for task ':applySourcePatches' into context took 0.004 secs.
+Putting task artifact state for task ':applySourcePatches' into context took 0.005 secs.
 Task :applySourcePatches class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :applySourcePatches actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':applySourcePatches' (up-to-date check took 0.013 secs) due to:
+Executing task ':applySourcePatches' (up-to-date check took 0.014 secs) due to:
   Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forge-1.11-13.19.1.2199-patched.jar has changed.
 Reading patches
 Injecting injects (sources and resources)
@@ -10314,23 +10315,23 @@ Patch succeeded: net/minecraft/world/storage/loot/LootTableManager.java
 Patch succeeded: net/minecraft/world/storage/loot/conditions/LootConditionManager.java
 Patch succeeded: net/minecraft/world/storage/loot/conditions/RandomChanceWithLooting.java
 Patch succeeded: net/minecraft/world/storage/loot/functions/LootingEnchantBonus.java
-:applySourcePatches (Thread[main,5,main]) completed. Took 2.904 secs.
+:applySourcePatches (Thread[main,5,main]) completed. Took 2.529 secs.
 :remapMcSources (Thread[main,5,main]) started.
 :remapMcSources
 No output file found.
-Putting task artifact state for task ':remapMcSources' into context took 0.004 secs.
+Putting task artifact state for task ':remapMcSources' into context took 0.001 secs.
 Task :remapMcSources class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :remapMcSources actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':remapMcSources' (up-to-date check took 0.008 secs) due to:
+Executing task ':remapMcSources' (up-to-date check took 0.001 secs) due to:
   Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forgeSrc-1.11-13.19.1.2199-sources.jar has changed.
-:remapMcSources (Thread[main,5,main]) completed. Took 4.363 secs.
+:remapMcSources (Thread[main,5,main]) completed. Took 3.923 secs.
 :recompileMc (Thread[main,5,main]) started.
 :recompileMc
 No output file found.
-Putting task artifact state for task ':recompileMc' into context took 0.001 secs.
+Putting task artifact state for task ':recompileMc' into context took 0.002 secs.
 Task :recompileMc class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :recompileMc actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':recompileMc' (up-to-date check took 0.002 secs) due to:
+Executing task ':recompileMc' (up-to-date check took 0.001 secs) due to:
   Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forgeSrc-1.11-13.19.1.2199.jar has changed.
 [ant:javac] Compiling 2655 source files to /home/kenzie/Documents/GitHub/ForgeGradleTestProject/build/tmp/recompileMc/compiled
 [ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
@@ -10339,12 +10340,12 @@ Executing task ':recompileMc' (up-to-date check took 0.002 secs) due to:
 [ant:javac] Note: Some input files use unchecked or unsafe operations.
 [ant:javac] Note: Recompile with -Xlint:unchecked for details.
 [ant:javac] 1 warning
-:recompileMc (Thread[main,5,main]) completed. Took 59.632 secs.
+:recompileMc (Thread[main,5,main]) completed. Took 29.142 secs.
 :extractNatives (Thread[main,5,main]) started.
 :extractNatives
 Skipping task ':extractNatives' as task onlyIf is false.
 :extractNatives SKIPPED
-:extractNatives (Thread[main,5,main]) completed. Took 0.117 secs.
+:extractNatives (Thread[main,5,main]) completed. Took 0.098 secs.
 :getAssetIndex (Thread[main,5,main]) started.
 :getAssetIndex
 Putting task artifact state for task ':getAssetIndex' into context took 0.002 secs.
@@ -10353,32 +10354,32 @@ Executing task ':getAssetIndex' (up-to-date check took 0.0 secs) due to:
 Task :getAssetIndex class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :getAssetIndex actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
 :getAssetIndex UP-TO-DATE
-:getAssetIndex (Thread[main,5,main]) completed. Took 1.025 secs.
+:getAssetIndex (Thread[main,5,main]) completed. Took 0.238 secs.
 :getAssets (Thread[main,5,main]) started.
 :getAssets
 Putting task artifact state for task ':getAssets' into context took 0.0 secs.
 Executing task ':getAssets' (up-to-date check took 0.0 secs) due to:
   Task has not declared any outputs.
-Current status: 241/1196   20%
-Current status: 411/1196   34%
-Current status: 611/1196   51%
-Current status: 848/1196   70%
-Current status: 1060/1196   88%
-:getAssets (Thread[main,5,main]) completed. Took 5.999 secs.
+Current status: 227/1196   18%
+Current status: 555/1196   46%
+Current status: 676/1196   56%
+Current status: 942/1196   78%
+Current status: 1195/1196   99%
+:getAssets (Thread[main,5,main]) completed. Took 5.085 secs.
 :makeStart (Thread[main,5,main]) started.
 :makeStart
 No cache file found.
-Putting task artifact state for task ':makeStart' into context took 0.002 secs.
+Putting task artifact state for task ':makeStart' into context took 0.0 secs.
 Task :makeStart class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :makeStart actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':makeStart' (up-to-date check took 0.001 secs) due to:
+Executing task ':makeStart' (up-to-date check took 0.005 secs) due to:
   Output property 'startOut' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/start/GradleStartServer.class has been removed.
   Output property 'startOut' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/start/GradleStart.java has been removed.
   Output property 'startOut' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/start/.cache has been removed.
 [ant:javac] Compiling 6 source files to /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/start
 [ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
 [ant:javac] 1 warning
-:makeStart (Thread[main,5,main]) completed. Took 0.372 secs.
+:makeStart (Thread[main,5,main]) completed. Took 0.712 secs.
 :setupDecompWorkspace (Thread[main,5,main]) started.
 :setupDecompWorkspace
 Skipping task ':setupDecompWorkspace' as it has no actions.
@@ -10386,5 +10387,5 @@ Skipping task ':setupDecompWorkspace' as it has no actions.
 
 BUILD SUCCESSFUL
 
-Total time: 8 mins 2.416 secs
+Total time: 3 mins 27.427 secs
 Stopped 0 compiler daemon(s).

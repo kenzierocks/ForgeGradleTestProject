@@ -1,70 +1,12 @@
+$ GRADLE_OPTS=-Xmx1G ./gradlew setupDecompWorkspace --info --no-daemon
 Initialized native services in: /home/kenzie/.gradle/native
 Starting Build
 Settings evaluated using settings file '/master/settings.gradle'.
 Projects loaded. Root project using build file '/home/kenzie/Documents/GitHub/ForgeGradleTestProject/build.gradle'.
 Included projects: [root project 'ForgeGradleTestProject']
 Evaluating root project 'ForgeGradleTestProject' using build file '/home/kenzie/Documents/GitHub/ForgeGradleTestProject/build.gradle'.
-Compiling build file '/home/kenzie/Documents/GitHub/ForgeGradleTestProject/build.gradle' using SubsetScriptTransformer.
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/ow2/asm/asm-debug-all/5.1/asm-debug-all-5.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.1/e5f54cd732a9c1b779459e79bc0b320dd4899bf5/asm-debug-all-5.1.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-parent/5.1/2768685ec9f3a387a328e4851c36716de2b34720/asm-parent-5.1.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/ow2/ow2/1.3/ow2-1.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2/ow2/1.3/f679d6639bfb209b0836a5e7cf09bfbcc1a41f06/ow2-1.3.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/2ec12f8d27a64e970b8be0fbd1d52dfec51cd41c/guava-18.0.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-parent/18.0/5398932a9ef2828eb9fc4f01e8d6cac626c219d2/guava-parent-18.0.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/sonatype/oss/oss-parent/7/oss-parent-7.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.sonatype.oss/oss-parent/7/46b8a785b60a2767095b8611613b58577e96d4c9/oss-parent-7.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/7fde35c41dfa8c216048d2de44b476d092c68d1c/opencsv-2.3.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/cloudbees/diff4j/1.1/diff4j-1.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.cloudbees/diff4j/1.1/db59c829feded7658fc65238c2a329956da1c13d/diff4j-1.1.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/cloudbees/cloudbees-oss-parent/1/cloudbees-oss-parent-1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.cloudbees/cloudbees-oss-parent/1/93cdeda37b3cc76b7c299d793a8873dcab0f70fc/cloudbees-oss-parent-1.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/github/abrarsyed/jastyle/jAstyle/1.3/jAstyle-1.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.abrarsyed.jastyle/jAstyle/1.3/7bc8a51666560f851e0b62da749772d9edd0de38/jAstyle-1.3.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/net/sf/trove4j/trove4j/2.1.0/trove4j-2.1.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/2.1.0/611aa329fad5ea9d27d850255a040f58614de071/trove4j-2.1.0.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/github/jponge/lzma-java/1.3/lzma-java-1.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.jponge/lzma-java/1.3/ca20493d6b7aa8d1fd1bdf1f0e2cac4f638ef518/lzma-java-1.3.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/96075165da0424e4e3c268f647cc9d618c268a5a/javaxdelta-2.0.1.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/6252c690921ee1dc719594a5d4da1829194f8b3/gson-2.2.4.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/github/tony19/named-regexp/0.2.3/named-regexp-0.2.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.tony19/named-regexp/0.2.3/73341f6235bccb4b7d83c6c6c2e97fb4cdb85f0f/named-regexp-0.2.3.pom]
-Resource missing. [HTTP GET: https://jcenter.bintray.com/net/minecraftforge/fernflower/2.0-SNAPSHOT/maven-metadata.xml]
-Resource missing. [HTTP HEAD: https://jcenter.bintray.com/net/minecraftforge/fernflower/2.0-SNAPSHOT/fernflower-2.0-SNAPSHOT.pom]
-Resource missing. [HTTP HEAD: https://jcenter.bintray.com/net/minecraftforge/fernflower/2.0-SNAPSHOT/fernflower-2.0-SNAPSHOT.jar]
-Resource missing. [HTTP GET: https://repo1.maven.org/maven2/net/minecraftforge/fernflower/2.0-SNAPSHOT/maven-metadata.xml]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/net/minecraftforge/fernflower/2.0-SNAPSHOT/fernflower-2.0-SNAPSHOT.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/net/minecraftforge/fernflower/2.0-SNAPSHOT/fernflower-2.0-SNAPSHOT.jar]
-Found locally available resource with matching checksum: [http://files.minecraftforge.net/maven/net/minecraftforge/fernflower/2.0-SNAPSHOT/fernflower-2.0-20151214.100946-17.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fernflower/2.0-SNAPSHOT/afe110ded58d3225d4d908f9d61d29f46cfb3098/fernflower-2.0-SNAPSHOT.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/3131ca0098dff459777810577b58e18fae2ea439/httpclient-4.3.3.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.3.3/httpcomponents-client-4.3.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcomponents-client/4.3.3/adda18bb154cf3add02034d918aa2d07b329512e/httpcomponents-client-4.3.3.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/httpcomponents/project/7/project-7.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/project/7/c486760d8e0eafe8d4932450e386c2805364f782/project-7.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/apache/13/apache-13.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache/apache/13/15aff1faaec4963617f07dbe8e603f0adabc3a12/apache-13.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/59065bb2ebb28c71ff86458db7d045e923de6377/httpmime-4.3.3.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/jvnet/localizer/localizer/1.12/localizer-1.12.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/f44431fa071649a3aa3a0c8beb7fca01ac403d20/localizer-1.12.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/jvnet/localizer/localizer-parent/1.12/localizer-parent-1.12.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer-parent/1.12/94af196aacc4345c68512b086e2f54c28e72ff97/localizer-parent-1.12.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/commons-io/commons-io/1.4/commons-io-1.4.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.4/526f34cad0a113787f3eb8ee1d0fe0abebcba887/commons-io-1.4.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/commons/commons-parent/7/commons-parent-7.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-parent/7/95db361d9db1474346b2bde93e5402281909144c/commons-parent-7.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/apache/4/apache-4.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache/apache/4/602b647986c1d24301bc3d70e5923696bc7f1401/apache-4.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/trove/trove/1.0.2/trove-1.0.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/trove/trove/1.0.2/6b1df44319c6f89436ddd260e9f7f8c21460bc3f/trove-1.0.2.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/13ec787d4bace3aa44734f4196cb659041785339/httpcore-4.3.2.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcomponents-core/4.3.2/35bff8146ac0477f3d3e4d85ef93341e5d3ecdb1/httpcomponents-core-4.3.2.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/4aeb2c0ae4261632487bf8ea870bdb405696cee9/commons-logging-1.1.3.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/commons/commons-parent/28/commons-parent-28.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-parent/28/9ff25b2866ef063a8828ba67d1e35c78f73e830a/commons-parent-28.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/commons-codec/commons-codec/1.6/commons-codec-1.6.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/9499f0c87ab43a74c456b9847acbcb5e67fe9f32/commons-codec-1.6.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/commons/commons-parent/22/commons-parent-22.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-parent/22/e895fa7ed472b3b2081ef77e2d5ece78c139d54/commons-parent-22.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/apache/9/apache-9.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache/apache/9/de55d73a30c7521f3d55e8141d360ffbdfd88caa/apache-9.pom]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/ow2/asm/asm-debug-all/5.1/asm-debug-all-5.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.1/dde860d586960d55a87cd52c4fc1f5059c89cbc6/asm-debug-all-5.1.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/cloudbees/diff4j/1.1/diff4j-1.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.cloudbees/diff4j/1.1/645329c0d4ebbea5f73758929c6e63bab9e77204/diff4j-1.1.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/github/abrarsyed/jastyle/jAstyle/1.3/jAstyle-1.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.abrarsyed.jastyle/jAstyle/1.3/42431e5834cfb184d60be4142e2806cf2d806ea/jAstyle-1.3.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/net/sf/trove4j/trove4j/2.1.0/trove4j-2.1.0.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/2.1.0/c82f2749a460b95de4c9d2466b62f18c23c7c914/trove4j-2.1.0.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.jponge/lzma-java/1.3/a25db9d4d385ccda4825ae1b47a7a61d86e595af/lzma-java-1.3.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/d4f5d077f1b15c6f67595015d69572303ad3f66d/javaxdelta-2.0.1.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/com/github/tony19/named-regexp/0.2.3/named-regexp-0.2.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.tony19/named-regexp/0.2.3/370846bf3837952d981deb8f91e81da8c65b09e1/named-regexp-0.2.3.jar]
-Found locally available resource with matching checksum: [http://files.minecraftforge.net/maven/net/minecraftforge/fernflower/2.0-SNAPSHOT/fernflower-2.0-20151214.100946-17.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fernflower/2.0-SNAPSHOT/67d785bbdf22477c158cbacb8116e29c9bced797/fernflower-2.0-SNAPSHOT.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/e02368d7b56c0c376f227378a4f77de62864d020/httpmime-4.3.3.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/jvnet/localizer/localizer/1.12/localizer-1.12.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/6d456886a035b2c3f758059da1f91a823eaa4a62/localizer-1.12.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/commons-io/commons-io/1.4/commons-io-1.4.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.4/a8762d07e76cfde2395257a5da47ba7c1dbd3dce/commons-io-1.4.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/trove/trove/1.0.2/trove-1.0.2.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/trove/trove/1.0.2/112b40581ab9a4d3de4636d49985a7f686d181c8/trove-1.0.2.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar]
-Found locally available resource with matching checksum: [https://jcenter.bintray.com/commons-codec/commons-codec/1.6/commons-codec-1.6.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar]
-Compiling build file '/home/kenzie/Documents/GitHub/ForgeGradleTestProject/build.gradle' using BuildScriptTransformer.
+Cached resource http://files.minecraftforge.net/maven/net/minecraftforge/fernflower/2.0-SNAPSHOT/fernflower-2.0-20151214.100946-17.pom is up-to-date (lastModified: Sun Dec 13 20:09:48 PST 2015).
+Cached resource http://files.minecraftforge.net/maven/net/minecraftforge/fernflower/2.0-SNAPSHOT/fernflower-2.0-20151214.100946-17.jar is up-to-date (lastModified: Sun Dec 13 20:09:48 PST 2015).
 #################################################
          ForgeGradle 2.2-SNAPSHOT-b3fbbed        
   https://github.com/MinecraftForge/ForgeGradle  
@@ -86,123 +28,81 @@ Tasks to be executed: [task ':deobfCompileDummyTask', task ':deobfProvidedDummyT
 Putting task artifact state for task ':deobfCompileDummyTask' into context took 0.001 secs.
 Executing task ':deobfCompileDummyTask' (up-to-date check took 0.0 secs) due to:
   Task has not declared any outputs.
-:deobfCompileDummyTask (Thread[main,5,main]) completed. Took 0.006 secs.
+:deobfCompileDummyTask (Thread[main,5,main]) completed. Took 0.041 secs.
 :deobfProvidedDummyTask (Thread[main,5,main]) started.
 :deobfProvidedDummyTask
 Putting task artifact state for task ':deobfProvidedDummyTask' into context took 0.0 secs.
 Executing task ':deobfProvidedDummyTask' (up-to-date check took 0.0 secs) due to:
   Task has not declared any outputs.
-:deobfProvidedDummyTask (Thread[main,5,main]) completed. Took 0.001 secs.
+:deobfProvidedDummyTask (Thread[main,5,main]) completed. Took 0.008 secs.
 :getVersionJson (Thread[main,5,main]) started.
 :getVersionJson
-Putting task artifact state for task ':getVersionJson' into context took 0.008 secs.
+Putting task artifact state for task ':getVersionJson' into context took 0.09 secs.
 Executing task ':getVersionJson' (up-to-date check took 0.0 secs) due to:
   Task.upToDateWhen is false.
 Task :getVersionJson class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :getVersionJson actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-:getVersionJson (Thread[main,5,main]) completed. Took 0.188 secs.
+:getVersionJson (Thread[main,5,main]) completed. Took 0.286 secs.
 :extractUserdev (Thread[main,5,main]) started.
 :extractUserdev
-Putting task artifact state for task ':extractUserdev' into context took 0.001 secs.
+Putting task artifact state for task ':extractUserdev' into context took 0.017 secs.
 Task :extractUserdev class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :extractUserdev actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Found locally available resource with matching checksum: [http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11-13.19.1.2199/forge-1.11-13.19.1.2199.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forge/1.11-13.19.1.2199/ccaea81566b3180448a185f9adcae61efbcd7364/forge-1.11-13.19.1.2199.pom]
-Found locally available resource with matching checksum: [http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11-13.19.1.2199/forge-1.11-13.19.1.2199-userdev.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forge/1.11-13.19.1.2199/2a434cb24e3f80a9b13d3ef9e9dd04daea389293/forge-1.11-13.19.1.2199-userdev.jar]
-Executing task ':extractUserdev' (up-to-date check took 0.843 secs) due to:
-  No history is available.
-:extractUserdev (Thread[main,5,main]) completed. Took 0.938 secs.
+Executing task ':extractUserdev' (up-to-date check took 0.062 secs) due to:
+  Output property 'destinationDir' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/userdev has changed.
+  Output property 'destinationDir' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/userdev/patches.zip has been removed.
+  Output property 'destinationDir' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/userdev/merged_at.cfg has been removed.
+:extractUserdev (Thread[main,5,main]) completed. Took 0.544 secs.
 :extractDependencyATs (Thread[main,5,main]) started.
 :extractDependencyATs
 Skipping task ':extractDependencyATs' as task onlyIf is false.
 :extractDependencyATs SKIPPED
-:extractDependencyATs (Thread[main,5,main]) completed. Took 0.001 secs.
+:extractDependencyATs (Thread[main,5,main]) completed. Took 0.003 secs.
 :extractMcpData (Thread[main,5,main]) started.
 :extractMcpData
-Resource missing. [HTTP GET: http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/1.11/mcp-1.11.pom]
-Resource missing. [HTTP GET: https://repo1.maven.org/maven2/de/oceanlabs/mcp/mcp/1.11/mcp-1.11.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/de/oceanlabs/mcp/mcp/1.11/mcp-1.11-srg.zip]
 Failed to get resource: GET. [HTTP HTTP/1.1 403 Forbidden: https://libraries.minecraft.net/de/oceanlabs/mcp/mcp/1.11/mcp-1.11.pom]
-Found locally available resource with matching checksum: [http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/1.11/mcp-1.11-srg.zip, /home/kenzie/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/mcp/1.11/96d7db97505f828de56001a13a24cabb8d564d8d/mcp-1.11-srg.zip]
 Skipping task ':extractMcpData' as task onlyIf is false.
 :extractMcpData SKIPPED
-:extractMcpData (Thread[main,5,main]) completed. Took 2.759 secs.
+:extractMcpData (Thread[main,5,main]) completed. Took 1.025 secs.
 :extractMcpMappings (Thread[main,5,main]) started.
 :extractMcpMappings
-Resource missing. [HTTP GET: http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp_snapshot/20161225-1.11/mcp_snapshot-20161225-1.11.pom]
-Resource missing. [HTTP GET: https://repo1.maven.org/maven2/de/oceanlabs/mcp/mcp_snapshot/20161225-1.11/mcp_snapshot-20161225-1.11.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/de/oceanlabs/mcp/mcp_snapshot/20161225-1.11/mcp_snapshot-20161225-1.11.zip]
 Failed to get resource: GET. [HTTP HTTP/1.1 403 Forbidden: https://libraries.minecraft.net/de/oceanlabs/mcp/mcp_snapshot/20161225-1.11/mcp_snapshot-20161225-1.11.pom]
-Found locally available resource with matching checksum: [http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp_snapshot/20161225-1.11/mcp_snapshot-20161225-1.11.zip, /home/kenzie/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/mcp_snapshot/20161225-1.11/bc7f6b3aa1afd5d2aec4a5f2cda5029ac7f3c263/mcp_snapshot-20161225-1.11.zip]
- Corrupted Cache!
-Checksums found: 7117d377866dd3836857ec089192c5ac
-4f7e6dc4a258fd15ba412890c6279892
-0db2c26997fc85349d837bca69eab997
-05f5ad109deba63f5d4bb6861a4abef2
-35ebdba408d64f5cbc345b589547f183
-b326b5062b2f0e69046810717534cb09
-68934a3e9455fa72420237eb05902327
-da03807e50797009c5d6194261e9d244
-Checksums calculated: 7117d377866dd3836857ec089192c5ac
-c51c928efba1e46660db244c306db0c0
-129c7ea4abdc08ddd98e841d83fd8e50
-cce019bce460f00075b99fac5ca69be0
-3ad6eed105795d3e731cf49c97270234
-11b5c3aed7999b7f9043671a84780425
-296bc840b3f1308931da8c532b3eb2cd
-2d6b179b5a7f5834e7dcd5ab5f5aa768
-e0b954ae064602a96052a2664bb6b267
-dde21cc35f0c459bd26464d3c4a338cb
-af4bbc8f4d12ea9d808c0f96456535ec
-74ec91430071f88493ac917c56411a05
-2a3e4c083e861fd24174d39f05530b25
-5c1ce3dc14ff2641501dc585243fd218
-a99be3556692d2c9389b1120b82435eb
-4f7e6dc4a258fd15ba412890c6279892
-0db2c26997fc85349d837bca69eab997
-05f5ad109deba63f5d4bb6861a4abef2
-35ebdba408d64f5cbc345b589547f183
-b326b5062b2f0e69046810717534cb09
-68934a3e9455fa72420237eb05902327
-da03807e50797009c5d6194261e9d244
-Putting task artifact state for task ':extractMcpMappings' into context took 0.0 secs.
-Task :extractMcpMappings class loader hash: 503eca69917b8d80f900612ccb3733d7
-Task :extractMcpMappings actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':extractMcpMappings' (up-to-date check took 0.085 secs) due to:
-  No history is available.
-:extractMcpMappings (Thread[main,5,main]) completed. Took 2.81 secs.
+Skipping task ':extractMcpMappings' as task onlyIf is false.
+:extractMcpMappings SKIPPED
+:extractMcpMappings (Thread[main,5,main]) completed. Took 1.417 secs.
 :genSrgs (Thread[main,5,main]) started.
 :genSrgs
 Skipping task ':genSrgs' as task onlyIf is false.
 :genSrgs SKIPPED
-:genSrgs (Thread[main,5,main]) completed. Took 0.344 secs.
+:genSrgs (Thread[main,5,main]) completed. Took 1.343 secs.
 :downloadClient (Thread[main,5,main]) started.
 :downloadClient
 Skipping task ':downloadClient' as task onlyIf is false.
 :downloadClient SKIPPED
-:downloadClient (Thread[main,5,main]) completed. Took 0.163 secs.
+:downloadClient (Thread[main,5,main]) completed. Took 0.626 secs.
 :downloadServer (Thread[main,5,main]) started.
 :downloadServer
 Skipping task ':downloadServer' as task onlyIf is false.
 :downloadServer SKIPPED
-:downloadServer (Thread[main,5,main]) completed. Took 0.251 secs.
+:downloadServer (Thread[main,5,main]) completed. Took 0.903 secs.
 :splitServerJar (Thread[main,5,main]) started.
 :splitServerJar
 Skipping task ':splitServerJar' as task onlyIf is false.
 :splitServerJar SKIPPED
-:splitServerJar (Thread[main,5,main]) completed. Took 1.134 secs.
+:splitServerJar (Thread[main,5,main]) completed. Took 4.499 secs.
 :mergeJars (Thread[main,5,main]) started.
 :mergeJars
 Skipping task ':mergeJars' as task onlyIf is false.
 :mergeJars SKIPPED
-:mergeJars (Thread[main,5,main]) completed. Took 0.547 secs.
+:mergeJars (Thread[main,5,main]) completed. Took 2.355 secs.
 :deobfMcSRG (Thread[main,5,main]) started.
 :deobfMcSRG
 No output file found.
-Putting task artifact state for task ':deobfMcSRG' into context took 0.0 secs.
+Putting task artifact state for task ':deobfMcSRG' into context took 0.003 secs.
 Task :deobfMcSRG class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :deobfMcSRG actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':deobfMcSRG' (up-to-date check took 0.05 secs) due to:
-  No history is available.
+Executing task ':deobfMcSRG' (up-to-date check took 0.009 secs) due to:
+  Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forge-1.11-13.19.1.2199-srgBin.jar has changed.
 Applying SpecialSource...
 Using AccessTransformers...
 /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/userdev/merged_at.cfg
@@ -9969,333 +9869,36 @@ Processed 1973 -> 2027
 Copying net/minecraftforge/fml/relauncher/SideOnly.class
 Copying net/minecraftforge/fml/relauncher/Side.class
 Processed /home/kenzie/Documents/GitHub/ForgeGradleTestProject/build/tmp/deobfMcSRG/deobfed.jar
-:deobfMcSRG (Thread[main,5,main]) completed. Took 8.946 secs.
+:deobfMcSRG (Thread[main,5,main]) completed. Took 41.824 secs.
 :decompileMc (Thread[main,5,main]) started.
 :decompileMc
 No output file found.
-Putting task artifact state for task ':decompileMc' into context took 0.0 secs.
+Putting task artifact state for task ':decompileMc' into context took 0.021 secs.
 Task :decompileMc class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :decompileMc actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':decompileMc' (up-to-date check took 0.0 secs) due to:
-  No history is available.
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/d04690f71f3393e23f30998d9534365274fa5f9f/jsr305-3.0.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/sonatype/oss/oss-parent/7/oss-parent-7.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/sonatype/oss/oss-parent/7/oss-parent-7.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.sonatype.oss/oss-parent/7/46b8a785b60a2767095b8611613b58577e96d4c9/oss-parent-7.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/mojang/netty/1.6/netty-1.6.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/mojang/netty/1.6/netty-1.6.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/mojang/netty/1.6/netty-1.6.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/mojang/netty/1.6/netty-1.6.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/mojang/netty/1.6/netty-1.6.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/51b8344892df1df6e588152168dfc3e7b73c912a/netty-1.6.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/oshi-project/oshi-core/1.1/oshi-core-1.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/oshi-project/oshi-core/1.1/oshi-core-1.1.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/oshi-project/oshi-core/1.1/oshi-core-1.1.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/oshi-project/oshi-core/1.1/oshi-core-1.1.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/97821ebb2c2fc7a786326c8b72fe9c553b9dc413/oshi-core-1.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/dev/jna/jna/3.4.0/jna-3.4.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/410f1facad5148c4005bc873c8dbeafde9121ebe/jna-3.4.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/dev/jna/platform/3.4.0/platform-3.4.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform-3.4.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e4019e7e54ec421080b7f1117ca58e3c8ff18279/platform-3.4.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/84b812e84c3a40f8c34d6413bec8e7f933ff61f1/icu4j-core-mojang-51.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/c6b45d57089efa973a68f3bdf8fc6b125fa532ee/jopt-simple-4.6.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/3edbe8ef424c9faaf1d94f95c9f799ac576d3322/netty-all-4.0.23.Final.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/io/netty/netty-parent/4.0.23.Final/netty-parent-4.0.23.Final.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/io.netty/netty-parent/4.0.23.Final/c249cd270253862742e44358b07aaee7bf5b2b9d/netty-parent-4.0.23.Final.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/sonatype/oss/oss-parent/9/oss-parent-9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/sonatype/oss/oss-parent/9/oss-parent-9.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.sonatype.oss/oss-parent/9/e5cdc4d23b86d79c436f16fed20853284e868f65/oss-parent-9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/google/guava/guava/17.0/guava-17.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/google/guava/guava/17.0/guava-17.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/f534dabee0b40b25715869c5e1287e38c7e1e4a/guava-17.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/google/guava/guava-parent/17.0/guava-parent-17.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-parent/17.0/f8ba48b925d1c925d0fc0379ffa14a06e44eb464/guava-parent-17.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/932ed8226f371b204d04a8c4d3d5fe0f2b26339f/commons-lang3-3.3.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-parent/33/commons-parent-33.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-parent/33/commons-parent-33.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-parent/33/a9bd6ae1e11cb313ec4a4c9bcd58c7a9ea60a5cd/commons-parent-33.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/apache/13/apache-13.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/apache/13/apache-13.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache/apache/13/15aff1faaec4963617f07dbe8e603f0adabc3a12/apache-13.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/commons-io/commons-io/2.4/commons-io-2.4.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/commons-io/commons-io/2.4/commons-io-2.4.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/9ece23effe8bce3904f3797a76b1ba6ab681e1b9/commons-io-2.4.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-parent/25/commons-parent-25.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-parent/25/commons-parent-25.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-parent/25/67b84199ca4acf0d8fbc5256d90b80f746737e94/commons-parent-25.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/apache/9/apache-9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/apache/9/apache-9.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache/apache/9/de55d73a30c7521f3d55e8141d360ffbdfd88caa/apache-9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/commons-codec/commons-codec/1.9/commons-codec-1.9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/commons-codec/commons-codec/1.9/commons-codec-1.9.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/f5357ff0f308600af3660bf00a8be3415a335723/commons-codec-1.9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-parent/32/commons-parent-32.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-parent/32/commons-parent-32.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-parent/32/e51c4223003c2c7c63f38d7b8823e40eb06bd1f/commons-parent-32.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/jutils/jutils/1.0.0/jutils-1.0.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/jutils/jutils/1.0.0/jutils-1.0.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/268fd036de1bc63efe63a7f84410465a71ecd756/jutils-1.0.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/6252c690921ee1dc719594a5d4da1829194f8b3/gson-2.2.4.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/mojang/authlib/1.5.24/authlib-1.5.24.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/mojang/authlib/1.5.24/authlib-1.5.24.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/mojang/authlib/1.5.24/authlib-1.5.24.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/mojang/authlib/1.5.24/authlib-1.5.24.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/mojang/authlib/1.5.24/authlib-1.5.24.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.24/533153954733f8ffcf96efbd4a4aed500d66013c/authlib-1.5.24.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/mojang/realms/1.10.4/realms-1.10.4.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/mojang/realms/1.10.4/realms-1.10.4.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/mojang/realms/1.10.4/realms-1.10.4.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/mojang/realms/1.10.4/realms-1.10.4.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/mojang/realms/1.10.4/realms-1.10.4.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.4/edaa991abea44c1d5fc22248b2d132f382b66895/realms-1.10.4.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/2fb3ea9182911315ee79aa2fb4853c7bdd347407/commons-compress-1.8.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/3131ca0098dff459777810577b58e18fae2ea439/httpclient-4.3.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/httpcomponents-client/4.3.3/httpcomponents-client-4.3.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/httpcomponents-client/4.3.3/httpcomponents-client-4.3.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.3/httpcomponents-client-4.3.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcomponents-client/4.3.3/adda18bb154cf3add02034d918aa2d07b329512e/httpcomponents-client-4.3.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/project/7/project-7.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/project/7/project-7.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/project/7/c486760d8e0eafe8d4932450e386c2805364f782/project-7.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/4aeb2c0ae4261632487bf8ea870bdb405696cee9/commons-logging-1.1.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-parent/28/commons-parent-28.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/commons/commons-parent/28/commons-parent-28.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-parent/28/9ff25b2866ef063a8828ba67d1e35c78f73e830a/commons-parent-28.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/13ec787d4bace3aa44734f4196cb659041785339/httpcore-4.3.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcomponents-core/4.3.2/35bff8146ac0477f3d3e4d85ef93341e5d3ecdb1/httpcomponents-core-4.3.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/it/unimi/dsi/fastutil/7.0.12_mojang/fastutil-7.0.12_mojang.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/it/unimi/dsi/fastutil/7.0.12_mojang/fastutil-7.0.12_mojang.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/7.0.12_mojang/fastutil-7.0.12_mojang.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/7.0.12_mojang/fastutil-7.0.12_mojang.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/it/unimi/dsi/fastutil/7.0.12_mojang/fastutil-7.0.12_mojang.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.0.12_mojang/c630168b0416fd08117c1240ee59d48ad2efb99e/fastutil-7.0.12_mojang.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/55b57955a40c0f8f810353e95b984b037c5a00a1/log4j-api-2.0-beta9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/logging/log4j/log4j/2.0-beta9/log4j-2.0-beta9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/logging/log4j/log4j/2.0-beta9/log4j-2.0-beta9.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.0-beta9/log4j-2.0-beta9.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j/2.0-beta9/345430f1f8658b6c64007c399ae621cedf10349f/log4j-2.0-beta9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/ecbc68219924a9327aa3a96037a2edf2fa1fe53/log4j-core-2.0-beta9.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/6f55ff9e681650148510c42d48a80db6d25782ab/launchwrapper-1.12.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/jline/jline/2.13/jline-2.13.pom]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/jline/jline/2.13/jline-2.13.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/21663b93af1247eab73abb3a1c999e9b4b4c4430/jline-2.13.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/db1255f68b642cf4dc455d11e4bd29ad7d6548d9/asm-debug-all-5.0.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-parent/5.0.3/f2b915adcf47fab0e17bccf47390aa206eba7937/asm-parent-5.0.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/ow2/ow2/1.3/ow2-1.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/ow2/ow2/1.3/ow2-1.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2/ow2/1.3/f679d6639bfb209b0836a5e7cf09bfbcc1a41f06/ow2-1.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/477aec1f36d1fa42e07d6e370ea01e5e1ef3de1e/akka-actor_2.11-2.3.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/typesafe/config/1.2.1/config-1.2.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/typesafe/config/1.2.1/config-1.2.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/bba22cafdcac684c0a4927410244d9fec0d693a0/config-1.2.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.pom]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/f1878b46191f92d2e7b7ae681c2c5536035d282/scala-actors-migration_2.11-1.1.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/5adde88e415b1b19496c828995188df041c91e29/scala-compiler-2.11.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.pom]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/299ed5e007840b23b6e2c638e260861261502796/scala-continuations-library_2.11-1.0.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.pom]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/d1e294c9f4e6c04c7a67ab8de65e5c19ce93de82/scala-continuations-plugin_2.11.1-1.0.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/1dcb6e725f3e9b7b459f30594c1a77a205b91de3/scala-library-2.11.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/408a5c0742fcb51c491e1d66fb873f4fa3e14fb0/scala-parser-combinators_2.11-1.0.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/c9043ee71a588d45252e0e302ef69a3f1f23ac0/scala-reflect-2.11.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/dfe8af88b0b40df50a877e5dd6dbead1ccdb08a0/scala-swing_2.11-1.0.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/e5b9258e28705f9ae280c40837b5356a085aac09/scala-xml_2.11-1.0.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/lzma/lzma/0.0.1/lzma-0.0.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/lzma/lzma/0.0.1/lzma-0.0.1.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/lzma/lzma/0.0.1/lzma-0.0.1.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/lzma/lzma/0.0.1/lzma-0.0.1.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/d1f7974ddb563d67d9829b0018a744ad56c11a4d/lzma-0.0.1.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/8e16c01240ee5783fe008bbcc6fe9d3d4a9e15af/trove4j-3.0.3.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/6e990043163d6426809538dab6da2e69299f9028/codecjorbis-20101023.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/codecwav/20101023/codecwav-20101023.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/codecwav/20101023/codecwav-20101023.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/codecwav/20101023/codecwav-20101023.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/codecwav/20101023/codecwav-20101023.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/cd1884cfffde4cc546cd484392fcb6c57b37f67c/codecwav-20101023.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/6b1c6869bfc078c166b375291a902e459dd65941/libraryjavasound-20101123.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/873259be992ef1162f004ee8e59b58a0d5c49971/librarylwjglopenal-20100824.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/218ee84d966dda9247d97cd337cc3324339f95ab/soundsystem-20120107.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/jinput/jinput/2.0.5/jinput-2.0.5.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/d9245416ac549f4476ae0bda53667c86243295dd/jinput-2.0.5.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/c070c3c923bc4c27b208bce04e267691445ec236/lwjgl-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/lwjgl/lwjgl/parent/2.9.4-nightly-20150209/parent-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/lwjgl/lwjgl/parent/2.9.4-nightly-20150209/parent-2.9.4-nightly-20150209.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/org/lwjgl/lwjgl/parent/2.9.4-nightly-20150209/parent-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/org/lwjgl/lwjgl/parent/2.9.4-nightly-20150209/parent-2.9.4-nightly-20150209.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/org/lwjgl/lwjgl/parent/2.9.4-nightly-20150209/parent-2.9.4-nightly-20150209.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/parent/2.9.4-nightly-20150209/e54c67e9baf0df2e9c50a33b3ae7fa8179304d97/parent-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.4-nightly-20150209/680db91f0b9e3212aadb9175519c441f52181e84/lwjgl_util-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/java3d/vecmath/1.5.2/vecmath-1.5.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/java3d/vecmath/1.5.2/vecmath-1.5.2.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/java3d/vecmath/1.5.2/vecmath-1.5.2.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/java3d/vecmath/1.5.2/vecmath-1.5.2.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/ef5f5ddcba25e118022ed6b88cf2825d392f35a4/vecmath-1.5.2.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/fusesource/jansi/jansi/1.11/jansi-1.11.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/af75ce5357c0cab4dc273738073fcfb39a10fdfe/jansi-1.11.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/fusesource/jansi/jansi-project/1.11/jansi-project-1.11.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/fusesource/jansi/jansi-project/1.11/jansi-project-1.11.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/fusesource/jansi/jansi-project/1.11/jansi-project-1.11.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi-project/1.11/c1fb6dcfa9faf3eafaf00bd66cbea2dbbc8c11d0/jansi-project-1.11.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/fusesource/fusesource-pom/1.8/fusesource-pom-1.8.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/fusesource/fusesource-pom/1.8/fusesource-pom-1.8.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.8/fusesource-pom-1.8.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.fusesource/fusesource-pom/1.8/d4f1b288004e1a8c8bc9f61f5f151d1ef0d4211a/fusesource-pom-1.8.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/scala-lang/scala-actors/2.11.0/scala-actors-2.11.0.pom]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.0/scala-actors-2.11.0.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8093e461262c2793e4f5d47824ac8288d826af3e/scala-actors-2.11.0.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/5ab983fe822ea3c4ac5477290996725771b31ff4/jinput-platform-2.0.5.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: http://files.minecraftforge.net/maven/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.pom]
-Resource missing. [HTTP HEAD: https://repo1.maven.org/maven2/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.pom, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/43650ab18c4064f59c1f237eef50c8b34ab5d6a2/lwjgl-platform-2.9.4-nightly-20150209.pom]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/mojang/netty/1.6/netty-1.6.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/mojang/authlib/1.5.24/authlib-1.5.24.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.24/889ff5477b844800cff734babbf42c1bbda4b10/authlib-1.5.24.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/mojang/realms/1.10.4/realms-1.10.4.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.4/7e837a5eae3fc08b13d5e1baf5ddf5b5d31aa2ff/realms-1.10.4.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/it/unimi/dsi/fastutil/7.0.12_mojang/fastutil-7.0.12_mojang.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.0.12_mojang/ba787e741efdc425fc5d2ea654b57c15fba27efa/fastutil-7.0.12_mojang.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/jline/jline/2.13/jline-2.13.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.4-nightly-20150209/d51a7c040a721d13efdfbd34f8b257b2df882ad0/lwjgl_util-2.9.4-nightly-20150209.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/org/scala-lang/scala-actors/2.11.0/scala-actors-2.11.0.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar]
-Found locally available resource with matching checksum: [https://repo1.maven.org/maven2/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/931074f46c795d2f7b30ed6395df5715cfd7675b/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar]
-Found locally available resource with matching checksum: [https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar, /home/kenzie/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/bcab850f8f487c3f4c4dbabde778bb82bd1a40ed/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar]
+Executing task ':decompileMc' (up-to-date check took 0.004 secs) due to:
+  Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forge-1.11-13.19.1.2199-decomp.jar has changed.
 Note: ForgeGradle is forking a new process to run decompilation.
-Starting process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java''. Working directory: /home/kenzie/Documents/GitHub/ForgeGradleTestProject Command: /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Xmx3G -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -cp /home/kenzie/.m2/repository/net/minecraftforge/gradle/ForgeGradle/2.2-SNAPSHOT/ForgeGradle-2.2-SNAPSHOT.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.1/dde860d586960d55a87cd52c4fc1f5059c89cbc6/asm-debug-all-5.1.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/6d456886a035b2c3f758059da1f91a823eaa4a62/localizer-1.12.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.4/a8762d07e76cfde2395257a5da47ba7c1dbd3dce/commons-io-1.4.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.cloudbees/diff4j/1.1/645329c0d4ebbea5f73758929c6e63bab9e77204/diff4j-1.1.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.abrarsyed.jastyle/jAstyle/1.3/42431e5834cfb184d60be4142e2806cf2d806ea/jAstyle-1.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/2.1.0/c82f2749a460b95de4c9d2466b62f18c23c7c914/trove4j-2.1.0.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.jponge/lzma-java/1.3/a25db9d4d385ccda4825ae1b47a7a61d86e595af/lzma-java-1.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/trove/trove/1.0.2/112b40581ab9a4d3de4636d49985a7f686d181c8/trove-1.0.2.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/d4f5d077f1b15c6f67595015d69572303ad3f66d/javaxdelta-2.0.1.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.tony19/named-regexp/0.2.3/370846bf3837952d981deb8f91e81da8c65b09e1/named-regexp-0.2.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fernflower/2.0-SNAPSHOT/67d785bbdf22477c158cbacb8116e29c9bced797/fernflower-2.0-SNAPSHOT.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/e02368d7b56c0c376f227378a4f77de62864d020/httpmime-4.3.3.jar:/home/kenzie/.gradle/wrapper/dists/gradle-3.2.1-bin/erlz51pt56t1o6vc7t39cikug/gradle-3.2.1/lib/groovy-all-2.4.7.jar net.minecraftforge.gradle.tasks.fernflower.FernFlowerInvoker /tmp/fg-fernflowersettings6335618881157156874.ser
+Starting process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java''. Working directory: /home/kenzie/Documents/GitHub/ForgeGradleTestProject Command: /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Xmx3G -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -cp /home/kenzie/.m2/repository/net/minecraftforge/gradle/ForgeGradle/2.2-SNAPSHOT/ForgeGradle-2.2-SNAPSHOT.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.1/dde860d586960d55a87cd52c4fc1f5059c89cbc6/asm-debug-all-5.1.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/6d456886a035b2c3f758059da1f91a823eaa4a62/localizer-1.12.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.4/a8762d07e76cfde2395257a5da47ba7c1dbd3dce/commons-io-1.4.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.cloudbees/diff4j/1.1/645329c0d4ebbea5f73758929c6e63bab9e77204/diff4j-1.1.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.abrarsyed.jastyle/jAstyle/1.3/42431e5834cfb184d60be4142e2806cf2d806ea/jAstyle-1.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/2.1.0/c82f2749a460b95de4c9d2466b62f18c23c7c914/trove4j-2.1.0.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.jponge/lzma-java/1.3/a25db9d4d385ccda4825ae1b47a7a61d86e595af/lzma-java-1.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/trove/trove/1.0.2/112b40581ab9a4d3de4636d49985a7f686d181c8/trove-1.0.2.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.nothome/javaxdelta/2.0.1/d4f5d077f1b15c6f67595015d69572303ad3f66d/javaxdelta-2.0.1.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/com.github.tony19/named-regexp/0.2.3/370846bf3837952d981deb8f91e81da8c65b09e1/named-regexp-0.2.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fernflower/2.0-SNAPSHOT/67d785bbdf22477c158cbacb8116e29c9bced797/fernflower-2.0-SNAPSHOT.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/home/kenzie/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/e02368d7b56c0c376f227378a4f77de62864d020/httpmime-4.3.3.jar:/home/kenzie/.gradle/wrapper/dists/gradle-3.2.1-bin/erlz51pt56t1o6vc7t39cikug/gradle-3.2.1/lib/groovy-all-2.4.7.jar net.minecraftforge.gradle.tasks.fernflower.FernFlowerInvoker /tmp/fg-fernflowersettings6231318203652349244.ser
 Successfully started process 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java''
-:decompileMc (Thread[main,5,main]) completed. Took 1 mins 51.431 secs.
+:decompileMc (Thread[main,5,main]) completed. Took 5 mins 23.993 secs.
 :fixMcSources (Thread[main,5,main]) started.
 :fixMcSources
 No output file found.
-Putting task artifact state for task ':fixMcSources' into context took 0.0 secs.
+Putting task artifact state for task ':fixMcSources' into context took 0.008 secs.
 Task :fixMcSources class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :fixMcSources actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':fixMcSources' (up-to-date check took 0.039 secs) due to:
-  No history is available.
-:fixMcSources (Thread[main,5,main]) completed. Took 11.264 secs.
+Executing task ':fixMcSources' (up-to-date check took 0.15 secs) due to:
+  Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forge-1.11-13.19.1.2199-decompFixed.jar has changed.
+:fixMcSources (Thread[main,5,main]) completed. Took 49.496 secs.
 :applySourcePatches (Thread[main,5,main]) started.
 :applySourcePatches
 No output file found.
-Putting task artifact state for task ':applySourcePatches' into context took 0.001 secs.
+Putting task artifact state for task ':applySourcePatches' into context took 0.012 secs.
 Task :applySourcePatches class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :applySourcePatches actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':applySourcePatches' (up-to-date check took 0.005 secs) due to:
-  No history is available.
+Executing task ':applySourcePatches' (up-to-date check took 0.053 secs) due to:
+  Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forge-1.11-13.19.1.2199-patched.jar has changed.
 Reading patches
 Injecting injects (sources and resources)
 Applying patches
@@ -10715,24 +10318,24 @@ Patch succeeded: net/minecraft/world/storage/loot/LootTableManager.java
 Patch succeeded: net/minecraft/world/storage/loot/conditions/LootConditionManager.java
 Patch succeeded: net/minecraft/world/storage/loot/conditions/RandomChanceWithLooting.java
 Patch succeeded: net/minecraft/world/storage/loot/functions/LootingEnchantBonus.java
-:applySourcePatches (Thread[main,5,main]) completed. Took 1.878 secs.
+:applySourcePatches (Thread[main,5,main]) completed. Took 8.371 secs.
 :remapMcSources (Thread[main,5,main]) started.
 :remapMcSources
 No output file found.
-Putting task artifact state for task ':remapMcSources' into context took 0.001 secs.
+Putting task artifact state for task ':remapMcSources' into context took 0.005 secs.
 Task :remapMcSources class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :remapMcSources actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':remapMcSources' (up-to-date check took 0.004 secs) due to:
-  No history is available.
-:remapMcSources (Thread[main,5,main]) completed. Took 2.68 secs.
+Executing task ':remapMcSources' (up-to-date check took 0.006 secs) due to:
+  Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forgeSrc-1.11-13.19.1.2199-sources.jar has changed.
+:remapMcSources (Thread[main,5,main]) completed. Took 12.888 secs.
 :recompileMc (Thread[main,5,main]) started.
 :recompileMc
 No output file found.
-Putting task artifact state for task ':recompileMc' into context took 0.0 secs.
+Putting task artifact state for task ':recompileMc' into context took 0.005 secs.
 Task :recompileMc class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :recompileMc actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':recompileMc' (up-to-date check took 0.0 secs) due to:
-  No history is available.
+Executing task ':recompileMc' (up-to-date check took 0.003 secs) due to:
+  Output property 'outJar' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/snapshot/20161225/forgeSrc-1.11-13.19.1.2199.jar has changed.
 [ant:javac] Compiling 2655 source files to /home/kenzie/Documents/GitHub/ForgeGradleTestProject/build/tmp/recompileMc/compiled
 [ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
 [ant:javac] Note: Some input files use or override a deprecated API.
@@ -10740,46 +10343,52 @@ Executing task ':recompileMc' (up-to-date check took 0.0 secs) due to:
 [ant:javac] Note: Some input files use unchecked or unsafe operations.
 [ant:javac] Note: Recompile with -Xlint:unchecked for details.
 [ant:javac] 1 warning
-:recompileMc (Thread[main,5,main]) completed. Took 16.684 secs.
+:recompileMc (Thread[main,5,main]) completed. Took 1 mins 8.653 secs.
 :extractNatives (Thread[main,5,main]) started.
 :extractNatives
 Skipping task ':extractNatives' as task onlyIf is false.
 :extractNatives SKIPPED
-:extractNatives (Thread[main,5,main]) completed. Took 0.021 secs.
+:extractNatives (Thread[main,5,main]) completed. Took 0.142 secs.
 :getAssetIndex (Thread[main,5,main]) started.
 :getAssetIndex
-Putting task artifact state for task ':getAssetIndex' into context took 0.0 secs.
+Putting task artifact state for task ':getAssetIndex' into context took 0.002 secs.
 Executing task ':getAssetIndex' (up-to-date check took 0.0 secs) due to:
   Task.upToDateWhen is false.
 Task :getAssetIndex class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :getAssetIndex actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
 :getAssetIndex UP-TO-DATE
-:getAssetIndex (Thread[main,5,main]) completed. Took 0.329 secs.
+:getAssetIndex (Thread[main,5,main]) completed. Took 0.29 secs.
 :getAssets (Thread[main,5,main]) started.
 :getAssets
 Putting task artifact state for task ':getAssets' into context took 0.0 secs.
 Executing task ':getAssets' (up-to-date check took 0.0 secs) due to:
   Task has not declared any outputs.
-Current status: 945/1196   79%
-:getAssets (Thread[main,5,main]) completed. Took 1.38 secs.
+Current status: 247/1195   20%
+Current status: 506/1195   42%
+Current status: 711/1195   59%
+Current status: 940/1195   78%
+Current status: 1113/1195   93%
+:getAssets (Thread[main,5,main]) completed. Took 5.498 secs.
 :makeStart (Thread[main,5,main]) started.
 :makeStart
 No cache file found.
-Putting task artifact state for task ':makeStart' into context took 0.001 secs.
+Putting task artifact state for task ':makeStart' into context took 0.002 secs.
 Task :makeStart class loader hash: 503eca69917b8d80f900612ccb3733d7
 Task :makeStart actions class loader hash: 57471616dd63d53a6cf9f16f333b7979
-Executing task ':makeStart' (up-to-date check took 0.0 secs) due to:
-  No history is available.
+Executing task ':makeStart' (up-to-date check took 0.011 secs) due to:
+  Output property 'startOut' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/start/GradleStartServer.class has been removed.
+  Output property 'startOut' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/start/GradleStart.java has been removed.
+  Output property 'startOut' file /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/start/.cache has been removed.
 [ant:javac] Compiling 6 source files to /home/kenzie/.gradle/caches/minecraft/net/minecraftforge/forge/1.11-13.19.1.2199/start
 [ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
 [ant:javac] 1 warning
-:makeStart (Thread[main,5,main]) completed. Took 0.128 secs.
+:makeStart (Thread[main,5,main]) completed. Took 0.519 secs.
 :setupDecompWorkspace (Thread[main,5,main]) started.
 :setupDecompWorkspace
 Skipping task ':setupDecompWorkspace' as it has no actions.
-:setupDecompWorkspace (Thread[main,5,main]) completed. Took 0.0 secs.
+:setupDecompWorkspace (Thread[main,5,main]) completed. Took 0.002 secs.
 
 BUILD SUCCESSFUL
 
-Total time: 3 mins 3.377 secs
+Total time: 9 mins 14.944 secs
 Stopped 0 compiler daemon(s).
